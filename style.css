@@ -1,0 +1,116 @@
+html {
+     scroll-behavior: smooth;
+     overflow-x: hidden;
+}
+
+body {
+     /* user-select: none; */
+     margin: 0;
+     padding: 0;
+     list-style-type: none;
+     box-sizing: border-box;
+     font-family: "Poppins", sans-serif;
+
+     overflow-x: hidden;
+     overflow-anchor: none;        /* to prevent content to scroll automatically on reloading the page */
+}
+
+
+
+
+
+/* background */
+.bg {
+     background: linear-gradient(to bottom, rgb(20, 20, 20) 50%, rgb(30, 30, 30) 50%);
+     height: 190vh;
+     width: 100vw;
+     position: absolute;
+     z-index: -5;
+}
+
+
+
+/* main content */
+.container {
+     background-color: rgb(56, 56, 56);
+     color: #000;
+     padding: 17px;
+     border-radius: 45px;
+     border: 0.5px solid white;
+     width: auto;
+     font-family: "Poppins", sans-serif;
+     position: absolute;
+     top: 90%;
+     left: 45%;
+     transform: translate(-50%, -50%);
+     margin: 30px;
+     box-shadow: rgba(255, 255, 255, 0.19) 0px 10px 20px, rgba(255, 255, 255, 0.23) 0px 6px 6px;
+}
+
+
+
+
+
+input {
+     outline: none;
+     padding: 10px;
+     margin: 5px;
+     border-radius: 30px;
+     font-family: "Poppins", sans-serif;
+     font-weight: 700;
+}
+button {
+     outline: none;
+     border: 1px solid black;
+     padding: 10px;
+     margin: 5px;
+     border-radius: 30px;
+     cursor: pointer;
+     font-family: "Poppins", sans-serif;
+     font-weight: bold;
+}
+
+
+i {
+     font-size: 22px;
+}
+.heading {
+     font-size: 14px;
+     font-weight: bold;
+}
+.number {
+     font-size: 30px;
+     font-weight: bold;
+}
+
+
+
+.totalCases, .activeCases, .deaths, .recoveredCases {
+     display: inline-block;
+     border-radius: 30px;
+     padding: 26px;
+     margin: 30px;
+     width: 33vw;
+     color: #fff;
+     text-align: left;
+}
+
+.totalCases {
+     background-color: rgb(177, 99, 35);
+}
+
+
+.activeCases {
+     background-color: rgb(34, 96, 107);
+}
+
+
+.recoveredCases {
+     background-color: rgb(14, 95, 57);
+}
+
+
+.deaths {
+     background-color: rgb(80, 26, 26);
+}
+
